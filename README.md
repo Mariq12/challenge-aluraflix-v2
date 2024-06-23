@@ -137,8 +137,9 @@ Inicia el proyecto en [http://localhost:5173/](http://localhost:5173/)
 
         npm install rollup -D
 
-    Si al deplegar el proyecto en Vercel da el siguiente error:
+   Para solucionar el siguiente error que muestra al deplegar el proyecto en Vercel:
 
+   ![error](https://github.com/Mariq12/challenge-aluraflix-v2/assets/101030215/b1a17de6-ca32-44c2-befe-367ee2fe34e4)
 
 
 ## 📁 Acceso al proyecto
@@ -155,10 +156,10 @@ Inicia el proyecto en [http://localhost:5173/](http://localhost:5173/)
 3. Subir la carpeta dist a GitHub.*
 
 
-Ver la demo en [Vercel]()
+### Ver la demo en [Vercel]()
 
-Ver API falsa en [GibHub](https://github.com/Mariq12/api-challenge-aluraflix)
-
+### Ver API falsa en [GibHub](https://github.com/Mariq12/api-challenge-aluraflix)
+---
 ## ✔️ Tecnologías
 * [React + Vite](https://vitejs.dev/guide/)
 * JavaScript

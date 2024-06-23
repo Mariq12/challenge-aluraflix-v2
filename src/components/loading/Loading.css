@@ -1,0 +1,23 @@
+.loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-bg); 
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.loading-container h2 {
+    margin-left: 20px; 
+    color: var(--color-frontend);
+}
+
+.react-loaders-kit {
+    width: auto; 
+    height: auto; 
+}

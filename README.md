@@ -37,9 +37,6 @@
 ## Descripción del proyecto
 Aluraflix es una plataforma diseñada para gestionar vídeos, con funcionalidades como listar, registrar, actualizar y eliminar videos, implementando React con JavaScript. Ayudará a poner en práctica y reforzar tus conocimientos en esta librería, tales como componentización, uso de hooks, consumo de API, rutas entre otros.
 
-### ⚠️ Es importante señalar
-Este proyecto utiliza un servidor falso creado con [My JSON Server](https://my-json-server.typicode.com/).
-
 ## Características
 ### Gestión de Videos:
 
@@ -136,6 +133,21 @@ Inicia el proyecto en [http://localhost:5173/](http://localhost:5173/)
         npm i uuid
 
 ## 📁 Acceso al proyecto
+
+### ⚠️ Atención
+Este proyecto utiliza un servidor falso creado con [My JSON Server](https://my-json-server.typicode.com/).
+
+### Deploy del proyecto en Vercel
+1. Se crea una carpeta dist ejecutando el comando:
+
+        npm run build
+
+2. Comentar la carpeta "dist" en gitignore
+
+            #dist
+
+3. 🚨 Subir la carpeta dist a GitHub.*
+
 
 Ver la demo en [Vercel]()
 

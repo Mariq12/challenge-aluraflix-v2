@@ -10,7 +10,7 @@ export const VideoProvider = ({ children }) => {
 
     const fetchVideos = async () => {
         try {
-            const response = await fetch('https://my-json-server.typicode.com/Mariq12/api-challengue-aluraflix/videos');
+            const response = await fetch('https://my-json-server.typicode.com/Mariq12/api-challenge-aluraflix/videos');
             const data = await response.json();
             setVideos(data);
         } catch (error) {

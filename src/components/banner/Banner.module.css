@@ -9,13 +9,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem;
-}
+    box-shadow: inset -0px 10px 15px -0px var(--color-blue);
+} 
 
 .gradient {
     height: 100%;
     width: 100%;
     opacity: 0.7;
-    background-color: var(--color-bg-edit);
+    background-color: var(--color-banner);
     position: absolute;
     top: 0;
     left: 0;
@@ -32,7 +33,9 @@
     align-items: flex-start;
     flex-direction: column;
     margin-top: 4rem;
-    width: 90%;
+    width: 41.615rem;
+    padding: 1.5rem 3rem 1.5rem 0;
+    width: 100%;
 }
 
 .content, .name {
@@ -44,15 +47,21 @@
 }
 
 .name {
-    border-bottom: 4px solid;
-    padding-bottom: 0.5rem;
-    background-color: transparent;
+    border-radius: 10px;
+    width: 18.551rem;
+    height: 5.75rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .title {
-    font-size: clamp(1.5rem, 2.4vw, 2.5rem);
+    font-size: clamp(1.25rem, 2.4vw, 2.875rem);
     font-weight: bold;
     margin-top: 1rem;
+    padding: 0;
 }
 
 .subtitle {
@@ -61,17 +70,60 @@
     opacity: 0.7;
 }
 
-.container {
-    width: 45rem;
+.containerBanner {
+    width: 100%;
     height: 21rem;
     z-index: 1;
     border-radius: 15px;
     overflow-y: hidden;
+    border-bottom: 4px solid var(--primary-color);
+    box-shadow: 2px 5px 15px var(--primary-color);
+    transition: box-shadow 0.3s ease;
+}
+
+.containerBanner:hover {
+    box-shadow: 0 0 10px var(--primary-color);
 }
 
 .video {
-    width: 100%; 
+    width: 40.487rem; 
     height: 100%;
+}
+
+.toggleButton {
+    margin-top: 0.5rem;
+    color: var(--color-white);
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.toggleButton:hover {
+    color: var(--color-light-gray);
+}
+
+.description {
+    margin-bottom: 9rem;
+    padding: 0 0 0.8rem 0.5rem;
+    background-color: var(--color-banner);
+    border-radius: 10px;
+}
+
+.title2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0;
+    background-color: transparent;
+}
+
+.subtitle2 {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    background-color: transparent;
 }
 
 @media (max-width: 768px) {
@@ -85,23 +137,34 @@
 
     .content {
         position: static;
-        margin: 1rem auto;
-        width: 100%;
         margin-bottom: 1.5rem;
+        padding: 0;
     }
 
-    .container {
+    .containerBanner {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 95%;
+        width: 100%;
         height: 18rem;
-        margin-left: 0;
-        padding-left: 0;
+    }
+
+    .subtitle {
+        padding: 0;
     }
 
     .video {
         width: 100%;
         height: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        width: 100%;
+        padding: 1rem;
+    }
+    .containerBainner {
+        width: 100%;
     }
 }

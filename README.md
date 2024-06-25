@@ -2,9 +2,9 @@
   <img src="https://github.com/Mariq12/challenge-aluraflix/assets/101030215/5c142c8f-588f-460f-94e8-d3c20b975917" alt="LogoMain"/>
 </p>
 
-# Challenge AluraFlix
+# Challenge AluraFlix v2
 <p align="right">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   <img src="https://img.shields.io/badge/STATUS-%20COMPLETADO-green">
    </p>
 
 ## Índice
@@ -156,9 +156,13 @@ Inicia el proyecto en [http://localhost:5173/](http://localhost:5173/)
 3. Subir la carpeta dist a GitHub.*
 
 
-### Ver la demo en [Vercel]()
+### Demo
+![challenge-aluraflix-v2](https://github.com/Mariq12/challenge-aluraflix-v2/assets/101030215/80aee34d-c381-430e-9a8b-3a8674e8ec02)
 
-### Ver API falsa en [GibHub](https://github.com/Mariq12/api-challenge-aluraflix)
+Ver demo en [Vercel](https://challenge-aluraflix-v2.vercel.app/)
+
+Ver API falsa en [GibHub](https://github.com/Mariq12/api-challenge-aluraflix)
+
 ---
 ## ✔️ Tecnologías
 * [React + Vite](https://vitejs.dev/guide/)
